@@ -31,6 +31,8 @@ class HoldLockThread implements Runnable{
  * 死锁是两个或者两个以上的进程在执行过程中，
  * 因争夺资源而造成的一种相互等待的现象
  * 若无外力干涉他们都将无法推进下去
+ *jps -l 查看线程
+ * jstack 线程id  查看死锁
  */
 public class DeadLockDemo {
     public static void main(String[] args) {
